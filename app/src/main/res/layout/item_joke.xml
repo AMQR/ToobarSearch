@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ac9494"
+              android:padding="10dp">
+
+    <TextView
+        android:id="@+id/mTvTit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66ff0000"
+        android:layout_margin="5dp"
+        tools:text="asdasd"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/mTvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6600ff00"
+        android:layout_margin="5dp"
+        tools:text="asdasd"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/mTvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#660000ff"
+        android:layout_margin="5dp"
+        tools:text="asdasd"
+        android:textSize="12sp"
+        />
+
+
+
+</LinearLayout>

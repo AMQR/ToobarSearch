@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.am.toolbarsearch.Activity.SimpleSearchActivity">
+
+    <EditText
+        android:id="@+id/mEtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:hint="请输入搜索内容"
+        android:background="#66000000"
+        />
+
+    <ListView
+        android:id="@+id/mLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#66505151"
+        ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity" >
+
+    <!--特殊之处就在于  app:actionViewClass="android.support.v7.widget.SearchView" 这一句-->
+    <item android:id="@+id/search"
+          android:title="@string/search"
+          android:icon="@drawable/icon_search"
+          android:orderInCategory="90"
+          app:actionViewClass="android.support.v7.widget.SearchView"
+          app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/about"
+          android:title="@string/about"
+          android:orderInCategory="90"
+          app:showAsAction="never"
+          />
+</menu>

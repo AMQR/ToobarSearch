@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:id="@+id/mCvItemRoot"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    card_view:cardBackgroundColor="@color/colorPrimary"
+                                    card_view:cardCornerRadius="10dp"
+                                    card_view:cardElevation="8dp"
+                                    android:layout_margin="10dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/mLlItemRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+
+        android:layout_margin="2dp">
+        <TextView
+            android:id="@+id/mTvJokeTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="一个标题"
+            android:maxLines="2"
+            android:textSize="18sp"
+            android:padding="10dp"
+            android:textColor="#f5f2f2"
+
+            />
+        <TextView
+            android:id="@+id/mTvJokeText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="描述"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textColor="#72df9c"
+            />
+
+        <TextView
+            android:id="@+id/mTvJokeTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="描述"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textColor="#aeb6b1"
+            />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

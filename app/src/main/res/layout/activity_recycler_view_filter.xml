@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme"
+        app:popupTheme="@style/OverflowMenuStyle"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/mTvDiyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                tools:text="标题先生"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:textSize="15dp"
+                />
+
+            <ImageView
+                android:id="@+id/mIvSearch"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/icon_search"
+                android:layout_marginLeft="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/mIvClean"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:background="@drawable/icon_error"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/mIvSearch"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:visibility="gone"
+
+                />
+            <EditText
+                android:id="@+id/mEtDiySearch"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/mIvClean"
+                android:background="@null"
+                android:paddingRight="33dp"
+                android:hint="请输入搜索内容"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                android:textSize="14sp"
+                android:visibility="gone"
+                />
+
+            <View
+                android:id="@+id/mLine"
+                android:layout_width="match_parent"
+                android:layout_height="0.4dp"
+                android:background="@color/little_gray"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mRvJokeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/mTvSimpleSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简单搜索"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/mTvToolBarSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToolBar搜索"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/mTvToolBarSearchDiy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToolBar搜索DIY"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/mTvToolBarSearchJump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳页搜索"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/mTvLvFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lv Filter"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/mTvRvFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView Filter"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
